@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CE087F3239AB486004C5C7E /* CDAMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE087F2239AB486004C5C7E /* CDAMovie.m */; };
+		2CE087F6239ABAE1004C5C7E /* CDAMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE087F5239ABAE1004C5C7E /* CDAMovieController.m */; };
+		2CE087F9239AC286004C5C7E /* MovieListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE087F8239AC286004C5C7E /* MovieListTableViewController.swift */; };
+		2CE087FB239AC3AC004C5C7E /* MovieCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE087FA239AC3AC004C5C7E /* MovieCellTableViewCell.swift */; };
 		2CE117B1239AB3B0003D2212 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE117B0239AB3B0003D2212 /* AppDelegate.m */; };
 		2CE117B4239AB3B0003D2212 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE117B3239AB3B0003D2212 /* SceneDelegate.m */; };
-		2CE117B7239AB3B0003D2212 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE117B6239AB3B0003D2212 /* ViewController.m */; };
 		2CE117BA239AB3B0003D2212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE117B8239AB3B0003D2212 /* Main.storyboard */; };
 		2CE117BC239AB3B1003D2212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE117BB239AB3B1003D2212 /* Assets.xcassets */; };
 		2CE117BF239AB3B1003D2212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE117BD239AB3B1003D2212 /* LaunchScreen.storyboard */; };
@@ -17,13 +20,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CE087F1239AB486004C5C7E /* CDAMovie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAMovie.h; sourceTree = "<group>"; };
+		2CE087F2239AB486004C5C7E /* CDAMovie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDAMovie.m; sourceTree = "<group>"; };
+		2CE087F4239ABAE1004C5C7E /* CDAMovieController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAMovieController.h; sourceTree = "<group>"; };
+		2CE087F5239ABAE1004C5C7E /* CDAMovieController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDAMovieController.m; sourceTree = "<group>"; };
+		2CE087F7239AC285004C5C7E /* AppleSearch-C-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppleSearch-C-Bridging-Header.h"; sourceTree = "<group>"; };
+		2CE087F8239AC286004C5C7E /* MovieListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewController.swift; sourceTree = "<group>"; };
+		2CE087FA239AC3AC004C5C7E /* MovieCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCellTableViewCell.swift; sourceTree = "<group>"; };
 		2CE117AC239AB3B0003D2212 /* AppleSearch-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleSearch-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE117AF239AB3B0003D2212 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2CE117B0239AB3B0003D2212 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2CE117B2239AB3B0003D2212 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		2CE117B3239AB3B0003D2212 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		2CE117B5239AB3B0003D2212 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2CE117B6239AB3B0003D2212 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2CE117B9239AB3B0003D2212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CE117BB239AB3B1003D2212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CE117BE239AB3B1003D2212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,7 @@
 			children = (
 				2CE117AE239AB3B0003D2212 /* AppleSearch-C */,
 				2CE117AD239AB3B0003D2212 /* Products */,
+				2CE117C8239AB3C6003D2212 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +70,63 @@
 		2CE117AE239AB3B0003D2212 /* AppleSearch-C */ = {
 			isa = PBXGroup;
 			children = (
+				2CE117CC239AB3FB003D2212 /* UI */,
+				2CE117CB239AB3EB003D2212 /* Models */,
+				2CE117CA239AB3E1003D2212 /* ModelControllers */,
+				2CE117C9239AB3D9003D2212 /* ViewControllers */,
+			);
+			path = "AppleSearch-C";
+			sourceTree = "<group>";
+		};
+		2CE117C8239AB3C6003D2212 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				2CE117AF239AB3B0003D2212 /* AppDelegate.h */,
 				2CE117B0239AB3B0003D2212 /* AppDelegate.m */,
 				2CE117B2239AB3B0003D2212 /* SceneDelegate.h */,
 				2CE117B3239AB3B0003D2212 /* SceneDelegate.m */,
-				2CE117B5239AB3B0003D2212 /* ViewController.h */,
-				2CE117B6239AB3B0003D2212 /* ViewController.m */,
-				2CE117B8239AB3B0003D2212 /* Main.storyboard */,
 				2CE117BB239AB3B1003D2212 /* Assets.xcassets */,
 				2CE117BD239AB3B1003D2212 /* LaunchScreen.storyboard */,
 				2CE117C0239AB3B1003D2212 /* Info.plist */,
 				2CE117C1239AB3B1003D2212 /* main.m */,
 			);
-			path = "AppleSearch-C";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2CE117C9239AB3D9003D2212 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CE087F8239AC286004C5C7E /* MovieListTableViewController.swift */,
+				2CE087F7239AC285004C5C7E /* AppleSearch-C-Bridging-Header.h */,
+				2CE087FA239AC3AC004C5C7E /* MovieCellTableViewCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2CE117CA239AB3E1003D2212 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CE087F4239ABAE1004C5C7E /* CDAMovieController.h */,
+				2CE087F5239ABAE1004C5C7E /* CDAMovieController.m */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		2CE117CB239AB3EB003D2212 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CE087F1239AB486004C5C7E /* CDAMovie.h */,
+				2CE087F2239AB486004C5C7E /* CDAMovie.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2CE117CC239AB3FB003D2212 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2CE117B8239AB3B0003D2212 /* Main.storyboard */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,11 +155,13 @@
 		2CE117A4239AB3B0003D2212 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CDA;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Renaissance Apps";
 				TargetAttributes = {
 					2CE117AB239AB3B0003D2212 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -146,9 +201,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CE117B7239AB3B0003D2212 /* ViewController.m in Sources */,
+				2CE087F9239AC286004C5C7E /* MovieListTableViewController.swift in Sources */,
 				2CE117B1239AB3B0003D2212 /* AppDelegate.m in Sources */,
+				2CE087F3239AB486004C5C7E /* CDAMovie.m in Sources */,
+				2CE087F6239ABAE1004C5C7E /* CDAMovieController.m in Sources */,
 				2CE117C2239AB3B1003D2212 /* main.m in Sources */,
+				2CE087FB239AC3AC004C5C7E /* MovieCellTableViewCell.swift in Sources */,
 				2CE117B4239AB3B0003D2212 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,14 +347,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "AppleSearch-C/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.RenaissanceApps.AppleSearch-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppleSearch-C/ViewControllers/AppleSearch-C-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -305,14 +367,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "AppleSearch-C/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.RenaissanceApps.AppleSearch-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppleSearch-C/ViewControllers/AppleSearch-C-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
